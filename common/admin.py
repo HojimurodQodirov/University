@@ -1,0 +1,5 @@
+from django.contrib import admin
+from .models import FrontendTranslation, Advertisement, StatisticSection, Statistic, Employee, Position, Department, NormativeDocument, Purpose, SiteMenu, WhyChooseUs, MainSlider, InternationalCooperation, Vacancy, ContactUs, Info, HeaderInfo, FooterInfo, Region, Country, RegionList, Partner, Search, SearchSuggestion, OurMission, OurStory, TopHeaderMenu, FAQ, CitizenshipList
+
+# Register your models here.
+admin.site.register([FrontendTranslation, Advertisement, StatisticSection, Statistic, Employee, Position, Department, NormativeDocument, Purpose, SiteMenu, WhyChooseUs, MainSlider, InternationalCooperation, Vacancy, ContactUs, Info, HeaderInfo, FooterInfo, Region, Country, RegionList, Partner, Search, SearchSuggestion, OurMission, OurStory, TopHeaderMenu, FAQ, CitizenshipList])
